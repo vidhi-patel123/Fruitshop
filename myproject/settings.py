@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-)xf=%=&uvex%p62t2vbitvi&f4+_zx1fl48557k#78dt^d!5vo
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['fruitshop-jlbj.onrender.com']
+ALLOWED_HOSTS = ['fruitshop-jlbj.onrender.com',
+                    '127.0.0.1:8000',
+                    '127.0.0.1'
+                    ]
 
 
 # Application definition
